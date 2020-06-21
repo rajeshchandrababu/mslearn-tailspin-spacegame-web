@@ -47,7 +47,7 @@ steps:
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Release'
-    projects: '**/*.csproj'trigger:
+    projects: '**/*.csproj'
 
 
 
