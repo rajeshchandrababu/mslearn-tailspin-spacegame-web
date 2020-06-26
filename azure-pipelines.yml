@@ -54,7 +54,7 @@
       arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
       zipAfterPublish: true
   
-  - task: WhiteSource Bolt@20
+  - task: WhiteSource Bolt@20.5.1
     displayName: 'Run WhiteSource Bolt'
   
   - task: PublishBuildArtifacts@1
